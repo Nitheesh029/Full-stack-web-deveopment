@@ -1,0 +1,43 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.video-title{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 5px;
+}
+#icon{
+  width:24px;
+}
+.view{
+  margin: 5px;
+  color: #606060;
+}
+.channel{
+  color: #606060;
+}
+.apple{
+  width: 24px;
+}
+#a{
+  color: #606060;
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+.description-apple{
+  text-align: center;
+  color: white;
+  background-color: #e34140;
+  font-size: 14px;
+  padding: 16px;
+}
+.Apple-link{
+  text-decoration: none;
+  color: white;
+  transition: .15ms;
+}
+.Apple-link:hover{
+  text-decoration: underline;
+}

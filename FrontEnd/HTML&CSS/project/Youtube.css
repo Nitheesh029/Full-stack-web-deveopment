@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  font-family: Roboto,Arial;
+}
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.thumbnail{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.logo{
+  width: 30px;
+  border-radius: 25px;
+}
+.title{
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0;
+}
+.channel-name{
+  font-size: 13px;
+  color:#606060;
+  margin: 0;
+
+}
+.video-stats{
+  font-size: 13px;
+  color:#606060;
+  margin: 0;
+  line-height: 25px;
+}
